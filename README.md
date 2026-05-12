@@ -1,4 +1,3 @@
-```markdown
 ## API Gateway (практическая реализация)
 
 ### Описание решения
@@ -188,4 +187,3 @@ Storage_Bucket=data
 | GET /v1/user/{filename} с токеном | 200 | ✅ Файл скачан |
 | GET /v1/user/{filename} без токена | 401 | ✅ Ошибка авторизации |
 | Content-Type загружаемого файла | image/* | ✅ Проверка MIME |
-
